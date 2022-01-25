@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap" rel="stylesheet">
+    <title>Team Generator</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="">Team <span class="colored-title">Generator</span></h1>
+        <p>Developed by <span class="author">Matteo Russo</span></p>
+    </header>
+    <main class="main-container">
+
+        <section id="rules">
+            <div class="text-area">
+                <h1>Rules</h1>
+                <p class="bold-number">#1</p>
+                <p class="">Enter how many teams you would like to have</p>
+                <br>
+                <p class="bold-number">#2</p>
+                <p class="">Add the names in the box</p>
+                <br>
+                <p class="bold-number">#3</p>
+                <p class="">Press the button to generate your teams</p>
+                <br>
+                <p class="bold-number">#4</p>
+                <p class="">Use the result or press again for another shuggle</p>
+            </div>
+            <div class="solid-bottom"></div>
+        </section>
+
+        <section id="user-action">
+            <div id="tools-user-action" class="text-area">
+
+                <div id="number-container">
+                    <p class="">Please enter how many team(s)</p>
+
+                    <input id="inputGroupNumber" type="number" class="form-control" placeholder=""
+                        aria-label="groupnumber" aria-describedby="basic-addon1" min="1">
+                </div>
+
+                <textarea id="outArray" rows="10
+                        " aria-label="With textarea"></textarea>
+
+                <button id="generate-button">Generate Teams</button>
+            </div>
+            <div class="solid-bottom"></div>
+        </section>
+
+        <section id="output-container">
+            <div id="groups-output-container" class="text-area">
+                <textarea id="inputArray" rows="10
+                        " aria-label="With textarea"></textarea>
+            </div>
+            <div class="solid-bottom"></div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

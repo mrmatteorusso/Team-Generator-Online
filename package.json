@@ -1,0 +1,14 @@
+{
+  "name": "team-generator",
+  "version": "0.0.0",
+  "description": "- [Description](#description)\r - [How to use it](#how-to-use-it)\r - [Contributing](#contributing)\r - [Reference](#reference)\r - [License](#license)\r - [Contact](#contact)",
+  "main": "index.html",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "mr",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}

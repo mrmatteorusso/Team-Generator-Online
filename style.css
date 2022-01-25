@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("assets/images/background.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    color:rgba(0, 0, 0);
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1, header p{
+    color: #d6d6d6;
+    }
+
+.colored-title {
+    color:  rgb(62, 223, 255);
+    }
+
+.author {
+    color: rgb(163, 163, 163);
+    }
+
+main {
+
+    width: 100%;
+}
+
+section {
+
+    margin: 1rem 0;
+
+}
+
+
+section h1 {
+    color:rgb(14, 90, 105);
+    padding-bottom: 0.5rem;
+}
+
+.text-area {
+    display: flex;
+    flex-direction: column;
+    background-color: #ececec;
+    padding: 2rem;
+    border-radius: 15px;
+    height: 70%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#number-container{
+    padding-bottom: 0.5rem;
+}
+
+#inputGroupNumber{
+    width: 10%;
+
+}
+
+#outArray {
+    padding: 0.5rem 0 0 0.5rem;
+    box-shadow: inset 1px 1px 1px grey;
+}
+
+
+#generate-button {
+    background-color: rgb(62, 223, 255);
+    border: 0;
+    border-radius: 50px;
+    color: #363636;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    margin: 0.5rem;
+}
+
+#generate-button:hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(97, 97, 97, 0.5), .125rem .125rem 1rem rgba(58, 58, 58, 0.5);
+}
+
+#groups-output-container textarea{
+    width: 98%;
+    height: 98%;
+    padding: 2% 0 0 2%;
+    box-shadow: inset 1px 1px 1px grey;
+}
+
+
+@media (min-width: 821px){
+    * {
+         margin: 0;
+        padding: 0;
+    }
+    body {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0 10%;
+
+    }
+
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        width: 100%;
+
+    }
+
+    header > * {
+        padding: 0.5rem;
+    }
+
+    main{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height: 70%;
+    }
+
+    section {
+        height: 100%;
+        width: 33%;
+        margin: 0 0.5rem;
+    }
+
+    #rules text-area h1{
+        padding-bottom: 0.5rem;
+    }
+
+    #number-container {
+        padding-top: 3.25rem;
+        display: flex;
+        align-items:baseline;
+    }
+
+    #number-container p{
+       flex-grow: 1;
+
+    }
+
+    #number-container input{
+        width: 10%;
+        padding: 2% 0 0 2%;
+    }
+
+    #inputGroupNumber {
+        box-shadow: inset 0.5px 0.5px 0.5px rgb(230, 230, 230);
+
+    }
+    #inputArray{
+        margin-top: 3rem;
+    }
+
+    .solid-bottom{
+        background-color: rgb(62, 223, 255);
+        height: 10px;
+        border-radius: 15px;
+        margin-top: 2rem;
+    }
+
+}
+
