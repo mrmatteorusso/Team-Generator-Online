@@ -1,5 +1,6 @@
 # Team-Generator
 
+![teamgenerator](https://user-images.githubusercontent.com/80893528/156840255-00786725-ff72-438e-9412-6d01d3c10d2a.gif)
 
 
 ### Table of Contents:
